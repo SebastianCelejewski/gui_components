@@ -13,10 +13,10 @@ public class DateViewField extends JTextField {
     private final static DateFormat df = new SimpleDateFormat("yyyy-MM-dd");
 
     public void setDate(Date date) {
-	if (date != null) {
-	    this.setText(df.format(date));
-	} else {
-	    this.setText("");
-	}
+        if (date != null) {
+            this.setText(df.format(date));
+        } else {
+            this.setText("");
+        }
     }
 }
